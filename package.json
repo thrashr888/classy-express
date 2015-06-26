@@ -2,12 +2,19 @@
   "name": "classy-express",
   "version": "0.0.2",
   "description": "A simple class-based web framework for Express",
+  "author": {
+    "name": "Paul Thrasher",
+    "email": "thrashr888@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thrashr888/classy-express"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paul Thrasher <thrashr888@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "jade": "<1.0.0"
