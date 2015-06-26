@@ -16,7 +16,7 @@ Once the middleware is installed, it handles all urls.
 var express = require('express');
 var classy = require('classy-express');
 var app = express();
-app.use(classy);
+app.use(classy(__dirname));
 app.listen(8080);
 ```
 

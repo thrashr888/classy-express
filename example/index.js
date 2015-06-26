@@ -3,9 +3,9 @@ var querystring = require('querystring');
 var classy = require('../');
 var app = express();
 
-app.use(classy);
+app.use(classy(__dirname));
 
-var server = app.listen(7000, function () {
+var server = app.listen(7000, 'localhost', function () {
 
   var host = server.address().address;
   var port = server.address().port;
