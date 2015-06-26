@@ -1,6 +1,6 @@
 {
   "name": "classy-express",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple class-based web framework for Express",
   "author": {
     "name": "Paul Thrasher",
